@@ -87,17 +87,17 @@ def clear():
 
 def sin():
     opt_str = result_num.get()
-    result = math.sin(eval(opt_str))
+    result = math.sin(eval(opt_str)*(math.pi)/180)
     result_num.set(str(result))
 
 def cos():
     opt_str = result_num.get()
-    result = math.cos(eval(opt_str))
+    result = math.cos(eval(opt_str)*(math.pi)/180)
     result_num.set(str(result))
 
 def tan():
     opt_str = result_num.get()
-    result = math.tan(eval(opt_str))
+    result = math.tan(eval(opt_str)*(math.pi)/180)
     result_num.set(str(result))
 
 
